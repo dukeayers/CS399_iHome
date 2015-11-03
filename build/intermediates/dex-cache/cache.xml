@@ -2,6 +2,34 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-587327edd2ad31bb7f48574e490d61b80dbd03ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-d3bc03ed7e404137076e3b32c0607dbd829e3a6b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-f3396e15985d8caea586de6eb2f9ffcf163b09f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mo&apos; Murder\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-66bb64d389f830e95e7b202d266511341bb63ba5.jar" />
+    </item>
+    <item
         jar="C:\Users\Mo&apos; Murder\.gradle\caches\modules-2\files-2.1\org.jbundle.util.osgi.wrapped\org.jbundle.util.osgi.wrapped.org.apache.http.client\4.1.2\98c86e42679fe7ac066f6c242e0d14f0bce0bb7c\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
         jumboMode="false"
         revision="23.0.1"
