@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "horizontal"
+    android:background="#F2F1EF"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.10"
+        >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="670dp"
+        android:layout_weight="0.21">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:id="@+id/linearLayout">
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:textColor="#FFFFFF"
+            android:background="#26A65B"
+            android:id="@+id/bCreate"
+            android:layout_weight="2.20"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:background="#22313F"
+            android:id="@+id/regEmail"
+            android:padding="20dp"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+            android:layout_weight="0.93"
+            android:layout_marginBottom="48dp"
+            android:layout_above="@+id/bCreate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:id="@+id/registertext"
+            android:layout_weight="1.88"
+            android:layout_marginBottom="52dp"
+            android:layout_above="@+id/regUsername"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:background="#22313F"
+            android:id="@+id/regUsername"
+            android:padding="20dp"
+
+            android:layout_weight="1.58"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="32dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:background="#22313F"
+            android:id="@+id/regPassword"
+            android:padding="20dp"
+            android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+            android:drawablePadding="10dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="33dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.12"
+        >
+    </RelativeLayout>
+
+
+</LinearLayout>

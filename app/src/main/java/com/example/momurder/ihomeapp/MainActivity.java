@@ -8,45 +8,33 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-    Button rLogin;
-
-    UserLocalStore userLocalStore;
+public class MainActivity extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button button = (Button)findViewById(R.id.rLogin);
+        Button register = (Button) findViewById(R.id.rRegister);
 
-        rLogin = (Button) findViewById(R.id.rLogin);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Login.class));
 
-        rLogin.setOnClickListener(this);
+            }
+        });
 
-        userLocalStore = new UserLocalStore(this);
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Register.class));
+
+            }
+        });
 
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        if(!authenticate()){
-            startActivity(new Intent(this , Login.class));
-        }
-    }
-
-    private boolean authenticate() {
-        return userLocalStore.getUserLoggedIn();
-    }
-
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -62,9 +50,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         return super.onOptionsItemSelected(item);
     }
-
-    @Override
-    public void onClick(View v) {
-        startActivity(new Intent(this , Login.class));
-    }
 }
+
