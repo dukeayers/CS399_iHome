@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = (Button)findViewById(R.id.rLogin);
-        Button register = (Button) findViewById(R.id.rRegister);
-
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,7 +23,8 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-        register.setOnClickListener(new View.OnClickListener() {
+        Button regButton = (Button) findViewById(R.id.rRegister);
+        regButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Register.class));
