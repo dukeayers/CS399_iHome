@@ -56,6 +56,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     showErrorMessage();
                 }
                 else{
+                    //userLocalStore.storeUserData(returnedUser);
+                    //userLocalStore.setUserLoggedIn(true);
                     showSuccessMessage();
                 }
             }
@@ -71,10 +73,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void showSuccessMessage() {
-        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(Login.this);
-        dialogBuilder.setMessage("Success!!");
-        dialogBuilder.setPositiveButton("OK", null);
-        dialogBuilder.show();
+
+        setContentView(R.layout.activity_home);
 
 
     }

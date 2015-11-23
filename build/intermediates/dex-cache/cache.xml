@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Mo&apos; Murder\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-7a06b1e77e358356153a97caecaa87fe9a8d9c1f.jar" />
-    </item>
-    <item
-        jar="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-f4ee90d340583eae84197c3eff9fb14e1db0e2ca.jar" />
-    </item>
-    <item
-        jar="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-bd40935dbc82497fe7cf4b7b50b9e25cffb1c1d4.jar" />
-    </item>
-    <item
-        jar="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-8c0b68305bbd6673174a8f3aceabc839a3bff21a.jar" />
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-b49a32d8d92648e2946c42ee48a8fa8f1373244c.jar" />
     </item>
     <item
-        jar="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-6366df6e2a063341ea040f63a97a3e6573aaf486.jar" />
-    </item>
-    <item
-        jar="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="C:\Users\Mo&apos; Murder\Documents\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-293708639a0802cfe5862905d093710690e9e374.jar" />
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-0fd6e047ed06ab4375c085b064705697319ba60d.jar" />
+    </item>
+    <item
+        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-dc51c2ffd2217115d97809c9a33935e8877ffdd0.jar" />
+    </item>
+    <item
+        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-fa0c7e2efbd877bb77fa4e07a9a31823b0edf9b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-6d9bfa622313ee648fc6d6b4125c79978a38a4ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\JOrge\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-b4b7fc297c2997e88137b4b8bb6d54c622768ea7.jar" />
     </item>
 
 </items>
