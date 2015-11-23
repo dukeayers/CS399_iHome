@@ -1,160 +1,199 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.momurder.ihomeapp.Security"
-    android:id="@+id/rel2">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "horizontal"
+    android:weightSum="1">
 
-    <ImageButton
-        android:layout_width="150dip"
-        android:layout_height="150dip"
-        android:id="@+id/imageSec2"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:background="@drawable/security" />
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alarms"
-        android:id="@+id/alarm"
-        android:textSize="45sp"
-        android:layout_marginBottom="142dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/imageSec2"
-        android:layout_alignStart="@+id/imageSec2" />
+    </RelativeLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cameras"
-        android:id="@+id/camera"
-        android:textSize="45sp"
-        android:layout_alignTop="@+id/doors"
-        android:layout_toRightOf="@+id/alarm"
-        android:layout_toEndOf="@+id/alarm" />
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Doors"
-        android:id="@+id/doors"
-        android:textSize="45sp"
-        android:layout_marginTop="41dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginEnd="44dp"
-        android:layout_below="@+id/imageSec2"
-        android:layout_toLeftOf="@+id/imageSec2"
-        android:layout_toStartOf="@+id/imageSec2" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-    <Button
-        android:layout_width="140dp"
-        android:layout_height="50dp"
-        android:text="LOCK"
-        android:id="@+id/btnLock"
-        android:background="#FF0000"
-        android:textColor="#FFFFFF"
-        android:layout_above="@+id/alarm"
-        android:layout_alignLeft="@+id/btnUnlock"
-        android:layout_alignStart="@+id/btnUnlock"
-        android:layout_marginBottom="45dp" />
+                <ImageButton
+                    android:layout_width="150dip"
+                    android:layout_height="150dip"
+                    android:id="@+id/imageSec2"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/security" />
+            </LinearLayout>
 
-    <Button
-        android:layout_width="140dip"
-        android:layout_height="50dip"
-        android:text="Unlock"
-        android:id="@+id/btnUnlock"
-        android:layout_below="@+id/unlock"
-        android:layout_alignLeft="@+id/doors"
-        android:layout_alignStart="@+id/doors"
-        android:textColor="#FFFFFF"
-        android:background="#26A65B"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-    <ImageView
-        android:layout_width="50dip"
-        android:layout_height="50dip"
-        android:id="@+id/unlock"
-        android:src="@drawable/unlocj"
-        android:layout_marginRight="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_below="@+id/doors"
-        android:layout_alignRight="@+id/doors"
-        android:layout_alignEnd="@+id/doors" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="50dip"
-        android:layout_height="50dip"
-        android:id="@+id/imageView"
-        android:src="@drawable/lock"
-        android:layout_alignTop="@+id/cameraoff"
-        android:layout_alignLeft="@+id/unlock"
-        android:layout_alignStart="@+id/unlock" />
 
-    <Button
-        android:layout_width="140dip"
-        android:layout_height="50dip"
-        android:text="ON"
-        android:id="@+id/cameraON"
-        android:layout_alignBottom="@+id/btnUnlock"
-        android:layout_toRightOf="@+id/imageSec2"
-        android:layout_toEndOf="@+id/imageSec2"
-        android:textColor="#FFFFFF"
-        android:background="#26A65B"/>
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Doors"
+                        android:gravity="center"
+                        android:id="@+id/doors"
+                        android:textSize="45sp" />
 
-    <Button
-        android:layout_width="140dip"
-        android:layout_height="50dip"
-        android:text="OFF"
-        android:id="@+id/cameraOFF"
-        android:layout_alignTop="@+id/btnLock"
-        android:layout_toRightOf="@+id/imageSec2"
-        android:layout_toEndOf="@+id/imageSec2"
-        android:background="#FF0000"
-        android:textColor="#FFFFFF"/>
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="LOCK"
+                        android:id="@+id/btnLock"
+                        android:background="#FF0000"
+                        android:textColor="#FFFFFF" />
 
-    <ImageView
-        android:layout_width="50dip"
-        android:layout_height="50dip"
-        android:id="@+id/cameraon"
-        android:src="@drawable/cameron"
-        android:layout_below="@+id/camera"
-        android:layout_alignRight="@+id/cameraON"
-        android:layout_alignEnd="@+id/cameraON"
-        android:layout_marginRight="42dp"
-        android:layout_marginEnd="42dp" />
+                    <Button
+                        android:layout_width="140dip"
+                        android:layout_height="50dip"
+                        android:text="Unlock"
+                        android:id="@+id/btnUnlock"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FFFFFF"
+                        android:background="#26A65B"/>
+                </LinearLayout>
 
-    <ImageView
-        android:layout_width="50dip"
-        android:layout_height="50dip"
-        android:id="@+id/cameraoff"
-        android:src="@drawable/cameraoff"
-        android:layout_above="@+id/cameraOFF"
-        android:layout_alignLeft="@+id/cameraon"
-        android:layout_alignStart="@+id/cameraon" />
 
-    <Button
-        android:layout_width="140dip"
-        android:layout_height="50dip"
-        android:text="Enable"
-        android:id="@+id/alarmEnavle"
-        android:textColor="#FFFFFF"
-        android:background="#26A65B"
-        android:layout_marginBottom="61dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-    <Button
-        android:layout_width="140dip"
-        android:layout_height="50dip"
-        android:text="Disable"
-        android:id="@+id/alarmDisable"
-        android:background="#FF0000"
-        android:textColor="#FFFFFF"
-        android:layout_alignBottom="@+id/alarmEnavle"
-        android:layout_alignRight="@+id/cameraoff"
-        android:layout_alignEnd="@+id/cameraoff" />
-</RelativeLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cameras"
+                        android:gravity="center"
+                        android:id="@+id/camera"
+                        android:textSize="45sp" />
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="LOCK"
+                        android:id="@+id/cameraON"
+                        android:background="#FF0000"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:layout_width="140dip"
+                        android:layout_height="50dip"
+                        android:text="Unlock"
+                        android:id="@+id/cameraoff"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FFFFFF"
+                        android:background="#26A65B"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:orientation="vertical">-->
+
+
+                    <!--<TextView-->
+                        <!--android:layout_width="fill_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Alarms"-->
+                        <!--android:gravity="center"-->
+                        <!--android:id="@+id/alarm"-->
+                        <!--android:textSize="45sp" />-->
+
+                    <!--<Button-->
+                        <!--android:layout_width="140dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:text="LOCK"-->
+                        <!--android:id="@+id/alarmEvable"-->
+                        <!--android:background="#FF0000"-->
+                        <!--android:textColor="#FFFFFF" />-->
+
+                    <!--<Button-->
+                        <!--android:layout_width="140dip"-->
+                        <!--android:layout_height="50dip"-->
+                        <!--android:text="Unlock"-->
+                        <!--android:id="@+id/alarmDisable"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:textColor="#FFFFFF"-->
+                        <!--android:background="#26A65B"/>-->
+                <!--</LinearLayout>-->
+
+
+            <!--</LinearLayout>-->
+            <!--<Button-->
+                <!--android:layout_width="140dip"-->
+                <!--android:layout_height="50dip"-->
+                <!--android:text="Enable"-->
+                <!--android:id="@+id/alarmEnavle"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:background="#26A65B"-->
+                <!--android:layout_marginBottom="61dp"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_alignLeft="@+id/imageView"-->
+                <!--android:layout_alignStart="@+id/imageView" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="140dip"-->
+                <!--android:layout_height="50dip"-->
+                <!--android:text="Disable"-->
+                <!--android:id="@+id/alarmDisable"-->
+                <!--android:background="#FF0000"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:layout_alignBottom="@+id/alarmEnavle"-->
+                <!--android:layout_alignRight="@+id/cameraoff"-->
+                <!--android:layout_alignEnd="@+id/cameraoff" />-->
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15"
+        >
+    </RelativeLayout>
+</LinearLayout>
