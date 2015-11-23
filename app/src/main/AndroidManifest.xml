@@ -46,6 +46,22 @@
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".tv"
+            android:label="@string/title_activity_tv" >
+        </activity>
+        <activity
+            android:name=".TV"
+            android:label="@string/title_activity_tv" >
+        </activity>
+        <activity
+            android:name=".Alarm"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+        <activity
+            android:name=".Security"
+            android:label="@string/title_activity_security" >
+        </activity>
     </application>
 
 </manifest>

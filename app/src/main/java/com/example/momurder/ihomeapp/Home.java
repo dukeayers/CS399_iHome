@@ -27,6 +27,15 @@ public class Home extends AppCompatActivity  {
             }
         });
 
+        ImageButton buttonSec = (ImageButton)findViewById(R.id.imageSec);
+        buttonSec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, Security.class));
+
+            }
+        });
+
         Button buttonSet = (Button)findViewById(R.id.btnSettings);
         buttonSet.setOnClickListener(new View.OnClickListener() {
             @Override

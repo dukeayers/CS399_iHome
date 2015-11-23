@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.momurder.ihomeapp.Security"
+    android:id="@+id/rel2">
+
+    <ImageButton
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:id="@+id/imageSec2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/security" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarms"
+        android:id="@+id/alarm"
+        android:textSize="45sp"
+        android:layout_marginBottom="142dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageSec2"
+        android:layout_alignStart="@+id/imageSec2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cameras"
+        android:id="@+id/camera"
+        android:textSize="45sp"
+        android:layout_alignTop="@+id/doors"
+        android:layout_toRightOf="@+id/alarm"
+        android:layout_toEndOf="@+id/alarm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doors"
+        android:id="@+id/doors"
+        android:textSize="45sp"
+        android:layout_marginTop="41dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_below="@+id/imageSec2"
+        android:layout_toLeftOf="@+id/imageSec2"
+        android:layout_toStartOf="@+id/imageSec2" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="LOCK"
+        android:id="@+id/btnLock"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/alarm"
+        android:layout_alignLeft="@+id/btnUnlock"
+        android:layout_alignStart="@+id/btnUnlock"
+        android:layout_marginBottom="45dp" />
+
+    <Button
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:text="Unlock"
+        android:id="@+id/btnUnlock"
+        android:layout_below="@+id/unlock"
+        android:layout_alignLeft="@+id/doors"
+        android:layout_alignStart="@+id/doors"
+        android:textColor="#FFFFFF"
+        android:background="#26A65B"/>
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:id="@+id/unlock"
+        android:src="@drawable/unlocj"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/doors"
+        android:layout_alignRight="@+id/doors"
+        android:layout_alignEnd="@+id/doors" />
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:id="@+id/imageView"
+        android:src="@drawable/lock"
+        android:layout_alignTop="@+id/cameraoff"
+        android:layout_alignLeft="@+id/unlock"
+        android:layout_alignStart="@+id/unlock" />
+
+    <Button
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:text="ON"
+        android:id="@+id/cameraON"
+        android:layout_alignBottom="@+id/btnUnlock"
+        android:layout_toRightOf="@+id/imageSec2"
+        android:layout_toEndOf="@+id/imageSec2"
+        android:textColor="#FFFFFF"
+        android:background="#26A65B"/>
+
+    <Button
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:text="OFF"
+        android:id="@+id/cameraOFF"
+        android:layout_alignTop="@+id/btnLock"
+        android:layout_toRightOf="@+id/imageSec2"
+        android:layout_toEndOf="@+id/imageSec2"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:id="@+id/cameraon"
+        android:src="@drawable/cameron"
+        android:layout_below="@+id/camera"
+        android:layout_alignRight="@+id/cameraON"
+        android:layout_alignEnd="@+id/cameraON"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp" />
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:id="@+id/cameraoff"
+        android:src="@drawable/cameraoff"
+        android:layout_above="@+id/cameraOFF"
+        android:layout_alignLeft="@+id/cameraon"
+        android:layout_alignStart="@+id/cameraon" />
+
+    <Button
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:text="Enable"
+        android:id="@+id/alarmEnavle"
+        android:textColor="#FFFFFF"
+        android:background="#26A65B"
+        android:layout_marginBottom="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Button
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:text="Disable"
+        android:id="@+id/alarmDisable"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@+id/alarmEnavle"
+        android:layout_alignRight="@+id/cameraoff"
+        android:layout_alignEnd="@+id/cameraoff" />
+</RelativeLayout>

@@ -13,26 +13,21 @@
     <ImageButton
 
         android:id="@+id/imageLights"
-        android:layout_marginTop="124dp"
         android:src="@drawable/lights"
         android:layout_width="150dip"
         android:layout_height="150dip"
-        android:layout_marginLeft="49dp"
-        android:layout_marginStart="49dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignTop="@+id/imageTemp"
+        android:layout_toLeftOf="@+id/btnSettings"
+        android:layout_toStartOf="@+id/btnSettings" />
 
     <ImageButton
         android:layout_width="150dip"
         android:layout_height="150dip"
         android:id="@+id/imageTemp"
         android:src="@drawable/temper"
-        android:layout_alignTop="@+id/imageLights"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="60dp"
-        android:layout_marginEnd="60dp" />
+        android:layout_above="@+id/imageSec"
+        android:layout_toRightOf="@+id/btnSettings"
+        android:layout_toEndOf="@+id/btnSettings" />
 
     <ImageButton
         android:layout_width="150dip"
@@ -48,10 +43,10 @@
         android:layout_height="150dip"
         android:id="@+id/imageTv"
         android:src="@drawable/tel"
-        android:layout_below="@+id/imageLights"
-        android:layout_alignLeft="@+id/imageLights"
-        android:layout_alignStart="@+id/imageLights"
-        android:layout_marginTop="112dp" />
+        android:layout_above="@+id/btnSettings"
+        android:layout_toLeftOf="@+id/btnSettings"
+        android:layout_toStartOf="@+id/btnSettings"
+        android:layout_marginBottom="77dp" />
 
     <ImageButton
         android:layout_width="100dip"
@@ -62,7 +57,7 @@
         android:src="@drawable/add" />
     <Button
         android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_height="75dp"
         android:text="Settings"
         android:textStyle="bold"
         android:padding="20dp"
@@ -70,8 +65,16 @@
         android:background="#26A65B"
         android:id="@+id/btnSettings"
         android:layout_weight="2.20"
-        android:layout_below="@+id/imagePhone"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="94dp" />
+        android:layout_marginBottom="65dp" />
+
+    <ImageButton
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:id="@+id/imageSec"
+        android:src="@drawable/security"
+        android:layout_above="@+id/imageTv"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

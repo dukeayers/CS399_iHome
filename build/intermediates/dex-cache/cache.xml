@@ -2,11 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jar="C:\Users\JOrge\.gradle\caches\modules-2\files-2.1\org.jbundle.util.osgi.wrapped\org.jbundle.util.osgi.wrapped.org.apache.http.client\4.1.2\98c86e42679fe7ac066f6c242e0d14f0bce0bb7c\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-b49a32d8d92648e2946c42ee48a8fa8f1373244c.jar" />
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2-041d5ed3d23bd13debcc66e0c970982c9a8c9af0.jar" />
+    </item>
+    <item
+        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-6d9bfa622313ee648fc6d6b4125c79978a38a4ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-fa0c7e2efbd877bb77fa4e07a9a31823b0edf9b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\JOrge\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-b4b7fc297c2997e88137b4b8bb6d54c622768ea7.jar" />
     </item>
     <item
         jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
@@ -23,25 +44,11 @@
         <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-dc51c2ffd2217115d97809c9a33935e8877ffdd0.jar" />
     </item>
     <item
-        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-fa0c7e2efbd877bb77fa4e07a9a31823b0edf9b9.jar" />
-    </item>
-    <item
-        jar="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-6d9bfa622313ee648fc6d6b4125c79978a38a4ab.jar" />
-    </item>
-    <item
-        jar="C:\Users\JOrge\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-b4b7fc297c2997e88137b4b8bb6d54c622768ea7.jar" />
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\JOrge\Documents\GitHub\CS399_iHome\app\build\intermediates\pre-dexed\debug\classes-b49a32d8d92648e2946c42ee48a8fa8f1373244c.jar" />
     </item>
 
 </items>
