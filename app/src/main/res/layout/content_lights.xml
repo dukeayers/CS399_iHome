@@ -1,54 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_lights" tools:context="com.example.momurder.ihomeapp.Lights">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "horizontal"
+    android:weightSum="1">
 
-    <ImageView
-        android:layout_width="200dip"
-        android:layout_height="200dip"
-        android:id="@+id/imageLights2"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src ="@drawable/lights" />
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15">
 
-    <Button
-        android:layout_width="200dip"
-        android:layout_height="wrap_content"
-        android:text="ON"
-        android:id="@+id/buttonOn"
-        android:layout_marginTop="100dp"
-        android:layout_below="@+id/imageLights2"
-        android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/buttons"/>
+    </RelativeLayout>
 
-    <Button
-        android:layout_width="200dip"
-        android:layout_height="wrap_content"
-        android:text="Dim"
-        android:id="@+id/buttonDim"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/buttons"
-        android:radius="10dip"/>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical" >
 
-    <Button
-        android:layout_width="200dip"
-        android:layout_height="wrap_content"
-        android:text="Off"
-        android:id="@+id/buttonOff"
-        android:layout_below="@+id/buttonDim"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="72dp"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/buttons"
-        />
 
-</RelativeLayout>
+            <ImageView
+                android:layout_width="200dip"
+                android:layout_height="200dip"
+                android:id="@+id/imageLights2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src ="@drawable/lights" />
+
+            <Button
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:text="ON"
+                android:id="@+id/buttonOn"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#4CAF50"/>
+
+            <Button
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:text="Dim"
+                android:id="@+id/buttonDim"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#A5D6A7"
+                android:radius="10dip"/>
+
+            <Button
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:id="@+id/buttonOff"
+                android:layout_marginTop="20dp"
+
+                android:textColor="#FFFFFF"
+                android:background="#BDBDBD"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15"
+        >
+    </RelativeLayout>
+</LinearLayout>
