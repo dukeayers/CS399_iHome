@@ -33,6 +33,7 @@
             android:id="@+id/intro"
             android:textColor="#ffffff"
             android:background="#22313F"
+            android:textSize="20sp"
             android:layout_marginBottom="40dp"/>
 
         <Button
