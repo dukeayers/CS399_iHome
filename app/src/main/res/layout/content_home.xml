@@ -12,9 +12,9 @@
 
     <ImageButton
 
-        android:id="@+id/Lights"
+        android:id="@+id/imageLights"
         android:layout_marginTop="124dp"
-        android:background="@drawable/lights"
+        android:src="@drawable/lights"
         android:layout_width="150dip"
         android:layout_height="150dip"
         android:layout_marginLeft="49dp"
@@ -27,8 +27,8 @@
         android:layout_width="150dip"
         android:layout_height="150dip"
         android:id="@+id/imageTemp"
-        android:background="@drawable/temper"
-        android:layout_alignTop="@+id/Lights"
+        android:src="@drawable/temper"
+        android:layout_alignTop="@+id/imageLights"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="60dp"
@@ -38,7 +38,7 @@
         android:layout_width="150dip"
         android:layout_height="150dip"
         android:id="@+id/imagePhone"
-        android:background="@drawable/phon"
+        android:src="@drawable/phon"
         android:layout_alignTop="@+id/imageTv"
         android:layout_alignRight="@+id/imageTemp"
         android:layout_alignEnd="@+id/imageTemp" />
@@ -47,10 +47,10 @@
         android:layout_width="150dip"
         android:layout_height="150dip"
         android:id="@+id/imageTv"
-        android:background="@drawable/tel"
-        android:layout_below="@+id/Lights"
-        android:layout_alignLeft="@+id/Lights"
-        android:layout_alignStart="@+id/Lights"
+        android:src="@drawable/tel"
+        android:layout_below="@+id/imageLights"
+        android:layout_alignLeft="@+id/imageLights"
+        android:layout_alignStart="@+id/imageLights"
         android:layout_marginTop="112dp" />
 
     <ImageButton
@@ -60,4 +60,13 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/add" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/test"
+        android:layout_below="@+id/imagePhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp" />
 </RelativeLayout>
