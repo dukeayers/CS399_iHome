@@ -1,6 +1,7 @@
 package com.example.momurder.ihomeapp;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -74,8 +75,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
     private void showSuccessMessage() {
 
-        setContentView(R.layout.activity_home);
-
+        startActivity(new Intent(Login.this, Home.class));
 
     }
 

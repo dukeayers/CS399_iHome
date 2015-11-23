@@ -15,7 +15,7 @@
         android:id="@+id/imageLights2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/lights" />
+        android:src ="@drawable/lights" />
 
     <Button
         android:layout_width="200dip"
