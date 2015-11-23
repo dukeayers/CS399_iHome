@@ -38,7 +38,7 @@
                     >
                     <ImageButton
                         android:id="@+id/imgLights"
-                        android:src="@drawable/lock"
+                        android:src="@drawable/lights"
                         android:gravity="center_horizontal"
                         android:layout_width="50dp"
                         android:background="#22313F"
@@ -94,7 +94,7 @@
                     >
                     <ImageButton
                         android:id="@+id/imgTV"
-                        android:src="@drawable/lock"
+                        android:src="@drawable/tv"
                         android:gravity="center_horizontal"
                         android:layout_width="50dp"
                         android:background="#22313F"
@@ -119,7 +119,7 @@
                     >
                     <ImageButton
                         android:id="@+id/imgTemp"
-                        android:src="@drawable/lock"
+                        android:src="@drawable/fire"
                         android:gravity="center_horizontal"
                         android:layout_width="50dp"
                         android:background="#22313F"
@@ -151,7 +151,7 @@
                     >
                     <ImageButton
                         android:id="@+id/imgPhone"
-                        android:src="@drawable/lock"
+                        android:src="@drawable/phone"
                         android:gravity="center_horizontal"
                         android:layout_width="50dp"
                         android:background="#22313F"
@@ -163,7 +163,7 @@
                         android:textStyle="bold"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:text="Lights"
+                        android:text="Phone"
                         />
                 </LinearLayout>
             </LinearLayout>
