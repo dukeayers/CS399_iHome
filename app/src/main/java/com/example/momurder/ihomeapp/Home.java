@@ -18,7 +18,7 @@ public class Home extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        ImageButton buttonLights = (ImageButton)findViewById(R.id.imageLights);
+        ImageButton buttonLights = (ImageButton)findViewById(R.id.imgLights);
         buttonLights.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,8 +26,16 @@ public class Home extends AppCompatActivity  {
 
             }
         });
+        Button buttonlight = (Button)findViewById(R.id.btnLights);
+        buttonlight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, Lights.class));
 
-        ImageButton buttonSec = (ImageButton)findViewById(R.id.imageSec);
+            }
+        });
+
+        ImageButton buttonSec = (ImageButton)findViewById(R.id.imgSecurity);
         buttonSec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,6 +44,14 @@ public class Home extends AppCompatActivity  {
             }
         });
 
+        Button buttonsec = (Button)findViewById(R.id.btnSecurity);
+        buttonsec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, Security.class));
+
+            }
+        });
         Button buttonSet = (Button)findViewById(R.id.btnSettings);
         buttonSet.setOnClickListener(new View.OnClickListener() {
             @Override
