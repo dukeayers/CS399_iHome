@@ -16,7 +16,7 @@ public class Security extends AppCompatActivity {
         setContentView(R.layout.activity_security);
 
 
-        Button buttonOn = (Button) findViewById(R.id.cameraON);
+        Button buttonOn = (Button) findViewById(R.id.cameraOn);
         buttonOn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,7 +25,7 @@ public class Security extends AppCompatActivity {
             }
         });
 
-        Button buttonOff = (Button) findViewById(R.id.cameraOFF);
+        Button buttonOff = (Button) findViewById(R.id.cameraOff);
         buttonOff.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +34,7 @@ public class Security extends AppCompatActivity {
             }
         });
 
-        Button buttonEnable = (Button) findViewById(R.id.alarmEnavle);
+        Button buttonEnable = (Button) findViewById(R.id.alarmEnable);
         buttonEnable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

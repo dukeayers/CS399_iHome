@@ -116,16 +116,16 @@
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="fill_parent"
-                            android:text="LOCK"
-                            android:id="@+id/cameraON"
+                            android:text="OFF"
+                            android:id="@+id/cameraOff"
                             android:background="#FF0000"
                             android:textColor="#FFFFFF" />
 
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="fill_parent"
-                            android:text="Unlock"
-                            android:id="@+id/cameraoff"
+                            android:text="ON"
+                            android:id="@+id/cameraOn"
                             android:textColor="#FFFFFF"
                             android:background="#26A65B"/>
                     </LinearLayout>
@@ -164,15 +164,15 @@
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="fill_parent"
-                            android:text="LOCK"
-                            android:id="@+id/alarmEvable"
+                            android:text="ARM"
+                            android:id="@+id/alarmEnable"
                             android:background="#FF0000"
                             android:textColor="#FFFFFF" />
 
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="fill_parent"
-                            android:text="Unlock"
+                            android:text="DISARM"
                             android:id="@+id/alarmDisable"
                             android:textColor="#FFFFFF"
                             android:background="#26A65B"/>
