@@ -42,13 +42,14 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:paddingTop="10dp"
+
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
                     android:orientation="vertical">
 
 
@@ -59,23 +60,28 @@
                         android:gravity="center"
                         android:id="@+id/doors"
                         android:textSize="45sp" />
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="LOCK"
+                            android:id="@+id/btnLock"
+                            android:background="#FF0000"
+                            android:textColor="#FFFFFF" />
 
-                    <Button
-                        android:layout_width="140dp"
-                        android:layout_height="50dp"
-                        android:text="LOCK"
-                        android:id="@+id/btnLock"
-                        android:background="#FF0000"
-                        android:textColor="#FFFFFF" />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="Unlock"
+                            android:id="@+id/btnUnlock"
+                            android:textColor="#FFFFFF"
+                            android:background="#26A65B"/>
+                    </LinearLayout>
 
-                    <Button
-                        android:layout_width="140dip"
-                        android:layout_height="50dip"
-                        android:text="Unlock"
-                        android:id="@+id/btnUnlock"
-                        android:layout_marginTop="5dp"
-                        android:textColor="#FFFFFF"
-                        android:background="#26A65B"/>
                 </LinearLayout>
 
 
@@ -90,7 +96,8 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:paddingTop="10dp"
+
                     android:orientation="vertical">
 
 
@@ -101,23 +108,76 @@
                         android:gravity="center"
                         android:id="@+id/camera"
                         android:textSize="45sp" />
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="LOCK"
+                            android:id="@+id/cameraON"
+                            android:background="#FF0000"
+                            android:textColor="#FFFFFF" />
 
-                    <Button
-                        android:layout_width="140dp"
-                        android:layout_height="50dp"
-                        android:text="LOCK"
-                        android:id="@+id/cameraON"
-                        android:background="#FF0000"
-                        android:textColor="#FFFFFF" />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="Unlock"
+                            android:id="@+id/cameraoff"
+                            android:textColor="#FFFFFF"
+                            android:background="#26A65B"/>
+                    </LinearLayout>
 
-                    <Button
-                        android:layout_width="140dip"
-                        android:layout_height="50dip"
-                        android:text="Unlock"
-                        android:id="@+id/cameraoff"
-                        android:layout_marginTop="5dp"
-                        android:textColor="#FFFFFF"
-                        android:background="#26A65B"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alarms"
+                        android:gravity="center"
+                        android:id="@+id/alarm"
+                        android:textSize="45sp" />
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="LOCK"
+                            android:id="@+id/alarmEvable"
+                            android:background="#FF0000"
+                            android:textColor="#FFFFFF" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="Unlock"
+                            android:id="@+id/alarmDisable"
+                            android:textColor="#FFFFFF"
+                            android:background="#26A65B"/>
+                    </LinearLayout>
+
                 </LinearLayout>
 
 
@@ -138,30 +198,8 @@
                     <!--android:orientation="vertical">-->
 
 
-                    <!--<TextView-->
-                        <!--android:layout_width="fill_parent"-->
-                        <!--android:layout_height="wrap_content"-->
-                        <!--android:text="Alarms"-->
-                        <!--android:gravity="center"-->
-                        <!--android:id="@+id/alarm"-->
-                        <!--android:textSize="45sp" />-->
 
-                    <!--<Button-->
-                        <!--android:layout_width="140dp"-->
-                        <!--android:layout_height="50dp"-->
-                        <!--android:text="LOCK"-->
-                        <!--android:id="@+id/alarmEvable"-->
-                        <!--android:background="#FF0000"-->
-                        <!--android:textColor="#FFFFFF" />-->
 
-                    <!--<Button-->
-                        <!--android:layout_width="140dip"-->
-                        <!--android:layout_height="50dip"-->
-                        <!--android:text="Unlock"-->
-                        <!--android:id="@+id/alarmDisable"-->
-                        <!--android:layout_marginTop="5dp"-->
-                        <!--android:textColor="#FFFFFF"-->
-                        <!--android:background="#26A65B"/>-->
                 <!--</LinearLayout>-->
 
 
